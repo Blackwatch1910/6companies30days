@@ -64,7 +64,7 @@ class Solution
                 deq.poll();
             }
 
-            while (!deq.isEmpty() && (arr[deq.peekLast() < arr[i]])) {
+            while (!deq.isEmpty() && (arr[deq.peekLast()] < arr[i])) {
                 deq.pollLast();
             }
 
